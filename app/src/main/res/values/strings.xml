@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Plannin-Cuisine</string>
+    <string name="my_ingredients">MY INGREDIENTS</string>
+    <string name="my_recipies">MY RECIPIES</string>
+    <string name="my_shop_list">MY SHOP LIST</string>
+    <string name="my_searchables_ingredients">Click here to find your ingredients</string>
+    <string name="hint_searchable_ingredients">Eggs</string>
+    <string name="do_you_want_add_this_ingredient_to_your_ingedient_list">Do you want add this ingredient to your ingedient list?</string>
+    <string name="positive_dialog_button">Yes</string>
+    <string name="quantity_is_null"></string>
+    <string name="delete_ingrdients_button">Click to delete selected or all ingrdients</string>
+    <string name="delete_selected_ingredientoflist_dialogue_message">Delete selected ingredients only </string>
+    <string name="do_you_want_add_this_recipe_to_your_recipe_list">Do you want add this recipe to your recipe list ?</string>
+    <string name="click_here_to_find_your_recipes">Click here to find your recipes</string>
+</resources>

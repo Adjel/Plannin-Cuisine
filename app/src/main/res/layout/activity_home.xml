@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <TextView
+        android:id="@+id/home_title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/chickenquiche"
+        android:gravity="center"
+        android:text="  lan  in'   cui  in'"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/home_title_p"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/chickenquiche"
+        android:gravity="center"
+        android:text="P                        "
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/home_title_n"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/chickenquiche"
+        android:gravity="center"
+        android:text="n        "
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/home_title_union"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/chickenquiche"
+        android:gravity="center"
+        android:text="           -        "
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/home_title_s"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/chickenquiche"
+        android:gravity="center"
+        android:text="                  s"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/my_ingredients_button"
+        style="@style/home_buttons_style"
+        android:layout_width="350dp"
+        android:layout_height="40sp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/stroke_black_corners"
+        android:text="@string/my_ingredients"
+        app:layout_constraintBottom_toTopOf="@id/my_recipies_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home_title"
+        tools:text="mes ingrédients" />
+
+    <Button
+        android:id="@+id/my_recipies_button"
+        style="@style/home_buttons_style"
+        android:layout_width="350dp"
+        android:layout_height="40sp"
+        android:background="@drawable/stroke_black_corners"
+        android:text="@string/my_recipies"
+        app:layout_constraintBottom_toBottomOf="@id/my_shop_list_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_ingredients_button"
+        tools:text="@string/my_recipies" />
+
+    <Button
+        android:id="@+id/my_shop_list_button"
+        style="@style/home_buttons_style"
+        android:layout_width="350dp"
+        android:layout_height="40sp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/stroke_black_corners"
+        android:text="@string/my_shop_list"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_recipies_button"
+        tools:text="liste de course" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

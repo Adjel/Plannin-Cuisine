@@ -1,0 +1,35 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="color">@color/AppBackGroundColor</item>
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">#FFFFFF</item>
+    </style>
+
+    <style name="NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorAccent">@color/AppBackGroundColor</item>
+    </style>
+
+    <style name="home_buttons_style">
+        <item name="background">@drawable/stroke_black_corners</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:elevation">10dp</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="AppColor">
+        <item name="colorPrimary">@color/AppDarkYellow</item>
+    </style>
+</resources>

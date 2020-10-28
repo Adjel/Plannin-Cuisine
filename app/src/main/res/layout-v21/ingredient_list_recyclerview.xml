@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/NoActionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#131223">
+
+    <Button
+        android:id="@+id/ingredient_search_activity_search_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/AppMeduimYellow"
+        android:clickable="false"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:focusable="false"
+        android:gravity="start|center_vertical"
+        android:text="@string/my_searchables_ingredients"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ingredientoflist_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/delete_ingredient"
+        android:layout_below="@id/ingredient_search_activity_search_button"
+        android:background="@android:color/white"
+        android:clickable="false"
+        android:focusable="false"
+        app:queryHint="your ingredients" />
+
+    <ImageButton
+        android:id="@+id/delete_ingredient"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/AppMeduimYellow"
+        android:contentDescription="@string/delete_ingrdients_button"
+        android:focusable="false"
+        android:src="@drawable/baseline_delete_white_24dp"
+        tools:visibility="visible" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="home_buttons_style">
+        <item name="background">@drawable/stroke_black_corners</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:screenReaderFocusable">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:elevation">10dp</item>
+
+    </style>
+</resources>
